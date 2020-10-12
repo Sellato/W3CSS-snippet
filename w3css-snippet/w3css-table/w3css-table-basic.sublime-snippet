@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-responsive">
+  <table class="w3-table-all">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+]]></content>
+  <tabTrigger>w3css-table-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

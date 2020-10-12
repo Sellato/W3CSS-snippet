@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-bar">
+  <a href="#" class="w3-button"><!-- <span class="sr-only">Prev</span> -->&laquo;</a>
+  <a href="#" class="w3-button">1</a>
+  <a href="#" class="w3-button">2</a>
+  <a href="#" class="w3-button">3</a>
+  <a href="#" class="w3-button">4</a>
+  <a href="#" class="w3-button"><!-- <span class="sr-only">Next</span> -->&raquo;</a>
+</div>
+]]></content>
+  <tabTrigger>w3css-pagination-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

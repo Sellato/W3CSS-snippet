@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-card-4" style="width: 150px;">
+  <img class="w3-image" src="https://via.placeholder.com/150x150" width="150" height="150" alt="image">
+  <div class="w3-container w3-center">
+    <p>Lorem ipsum, dolor.</p>
+  </div>
+</div>
+]]></content>
+  <tabTrigger>w3css-card-image</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

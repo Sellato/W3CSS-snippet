@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-panel w3-grey">
+  <p>I am a panel.</p>
+</div>
+]]></content>
+  <tabTrigger>w3css-panel-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

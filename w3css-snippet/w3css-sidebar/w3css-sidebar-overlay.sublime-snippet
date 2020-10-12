@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+<!-- w3css-sidebar-overlay -->
+<nav>
+  <!-- <h2 class="sr-only">Navigation</h2> -->
+  <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none; z-index:5;">
+    <button class="w3-bar-item w3-button w3-large" type="button"><!-- <span class="sr-only">Close</span> -->&times;</button>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+</nav>
+
+<div class="w3-overlay w3-animate-opacity" style="display:none; cursor:pointer;"></div>
+
+<div>
+  <button class="w3-button w3-white w3-xxlarge" type="button"><!-- <span class="sr-only">Open</span> &#9776;</button>
+  <div class="w3-container">
+    <h1>Sidebar Overlay</h1>
+    <p>The w3-overlay class can be used to create an overlay effect, when opening the sidebar. The w3-overlay class adds a black background with a 50% opacity to the "page content" - this effect will "highlight" the side navigation</p>
+    <p>Click on the "hamburger menu" to see the effect.</p>
+  </div>
+</div>
+<!-- w3css-sidebar-overlay end -->
+]]></content>
+  <tabTrigger>w3css-sidebar-overlay</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

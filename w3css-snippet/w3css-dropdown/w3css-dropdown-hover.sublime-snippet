@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-dropdown-hover">
+  <button class="w3-button w3-light-grey" type="button">Dropdown hover &dArr;</button>
+  <div class="w3-dropdown-content w3-bar-block w3-border">
+    <a class="w3-bar-item w3-button" href="#">Link</a>
+    <a class="w3-bar-item w3-button" href="#">Link</a>
+    <a class="w3-bar-item w3-button" href="#">Link</a>
+  </div>
+</div>
+]]></content>
+  <tabTrigger>w3css-dropdown-hover</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

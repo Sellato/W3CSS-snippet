@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+<ul class="w3-ul w3-card">
+  <li class="w3-bar">
+    <button class="w3-bar-item w3-button w3-right" type="button">&times;<!-- <span class="sr-only">Close</span> --></button>
+    <img class="w3-bar-item w3-circle" src="https://via.placeholder.com/60x60" width="60" height="60" alt="avatar">
+    <div class="w3-bar-item">
+      <span class="w3-large">Mike</span><br>
+      <span>Web Designer</span>
+    </div>
+  </li>
+  <li class="w3-bar">
+    <button class="w3-bar-item w3-button w3-right" type="button">&times;<!-- <span class="sr-only">Close</span> --></button>
+    <img class="w3-bar-item w3-circle" src="https://via.placeholder.com/60x60" width="60" height="60" alt="avatar">
+    <div class="w3-bar-item">
+      <span class="w3-large">Mike</span><br>
+      <span>Web Designer</span>
+    </div>
+  </li>
+  <li class="w3-bar">
+    <button class="w3-bar-item w3-button w3-right" type="button">&times;<!-- <span class="sr-only">Close</span> --></button>
+    <img class="w3-bar-item w3-circle" src="https://via.placeholder.com/60x60" width="60" height="60" alt="avatar">
+    <div class="w3-bar-item">
+      <span class="w3-large">Mike</span><br>
+      <span>Web Designer</span>
+    </div>
+  </li>
+</ul>
+]]></content>
+  <tabTrigger>w3css-list-profile</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

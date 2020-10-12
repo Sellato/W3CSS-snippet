@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-card-4">
+  <header class="w3-container w3-light-grey">
+    <h1>Header</h1>
+  </header>
+  <div class="w3-container">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quibusdam, necessitatibus.</p>
+  </div>
+  <footer class="w3-container w3-light-grey">
+    <h5>Footer</h5>
+  </footer>
+</div>
+]]></content>
+  <tabTrigger>w3css-card-content</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<ul class="w3-ul">
+  <li class="w3-display-container">List item text 
+    <button class="w3-button w3-display-topright" type="button">&times;<!-- <span class="sr-only">Close</span> --></button>
+  </li>
+  <li class="w3-display-container">List item text 
+    <button class="w3-button w3-display-topright" type="button">&times;<!-- <span class="sr-only">Close</span> --></button>
+  </li>
+  <li class="w3-display-container">List item text 
+    <button class="w3-button w3-display-topright" type="button">&times;<!-- <span class="sr-only">Close</span> --></button>
+  </li>
+</ul>
+]]></content>
+  <tabTrigger>w3css-list-closable</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

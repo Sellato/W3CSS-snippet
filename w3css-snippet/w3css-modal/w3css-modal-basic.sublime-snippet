@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+<!-- w3css-modal-basic -->
+  <div class="w3-modal" style="display: block;">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <div class="w3-container w3-light-grey"> 
+        <button class="w3-button w3-display-topright" type="button"><!-- <span class="sr-only">Close</span> -->&times;</button>
+        <h2>Modal Header</h2>
+      </div>
+      <div class="w3-container">
+        <p>Lorem ipsum dolor sit, amet.</p>
+        <p>Lorem ipsum dolor sit, amet.</p>
+      </div>
+      <div class="w3-container w3-light-grey">
+        <p>Modal Footer</p>
+      </div>
+    </div>
+  </div>
+<!-- w3css-modal-basic end -->
+]]></content>
+  <tabTrigger>w3css-modal-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

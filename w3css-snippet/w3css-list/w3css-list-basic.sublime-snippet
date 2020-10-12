@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<ul class="w3-ul">
+  <li>List item text</li>
+  <li>List item text</li>
+  <li>List item text</li>
+</ul>
+]]></content>
+  <tabTrigger>w3css-list-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

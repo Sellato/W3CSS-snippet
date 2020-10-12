@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+<!-- w3css-form-basic -->
+<div class="w3-card-4">
+  <div class="w3-container w3-light-grey">
+    <h2>Form</h2>
+  </div>
+  <form class="w3-container" action="" method="">
+    <div class="w3-section">
+      <label for="field-name">Name</label>
+      <input class="w3-input w3-border" id="field-name" name="name" type="text">
+    </div>
+    <div class="w3-section">      
+      <label for="field-email">Email</label>
+      <input class="w3-input w3-border" id="field-email" name="email" type="email">
+    </div>
+    <div class="w3-section">
+      <button class="w3-btn w3-light-grey" type="button">Register</button>
+    </div>
+  </form>
+</div>
+<!-- w3css-form-basic end -->
+]]></content>
+  <tabTrigger>w3css-form-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
+

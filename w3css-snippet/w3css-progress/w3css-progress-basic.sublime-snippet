@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<label for="progress">Progress</label>
+<div class="w3-border">
+  <!-- <progress class="sr-only" id="progress" value="20" max="100">20%</progress> -->
+  <div class="w3-grey" style="height:24px;width:20%"></div>
+</div>
+]]></content>
+  <tabTrigger>w3css-progress-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

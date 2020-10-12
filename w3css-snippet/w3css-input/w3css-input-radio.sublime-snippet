@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-section">
+  <input class="w3-radio" id="field-radio" type="radio" name="" value="">
+  <label for="field-radio">Radio</label>
+</div>
+]]></content>
+  <tabTrigger>w3css-input-radio</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

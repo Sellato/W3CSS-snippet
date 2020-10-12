@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<span class="w3-tag">tag</span>
+]]></content>
+  <tabTrigger>w3css-tag-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

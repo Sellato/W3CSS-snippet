@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+<!-- w3css-modal-form-login -->
+<div class="w3-modal" style="display: block;">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:500px">
+
+    <div class="w3-content w3-padding-16" style="width:30%">
+      <button class="w3-button w3-xlarge w3-display-topright" type="button"><!-- <span class="sr-only">Close</span> -->&times;</button>
+      <img class="w3-image w3-circle" src="https://via.placeholder.com/50x50" width="50" height="50" alt="Avatar" style="width: 100%">
+    </div>
+
+    <form class="w3-container" action="" method="">
+      <div class="w3-section">
+        <label for="field-name">Username</label>
+        <input class="w3-input w3-border w3-margin-bottom" id="field-name" type="text" name="name" required>
+        <label for="field-password">Password</label>
+        <input class="w3-input w3-border" id="field-password" type="password" name="password" required>
+        <button class="w3-button w3-block w3-light-grey w3-section w3-padding" type="submit">Login</button>
+        <input class="w3-check w3-section" id="field-chexbox" type="checkbox"> <label for="field-chexbox">Remember me</label>
+      </div>
+    </form>
+
+    <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+      <button class="w3-button w3-dark-grey" type="button">Cancel</button>
+      <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+    </div>
+
+  </div>
+</div>
+<!-- w3css-modal-form-login end -->
+]]></content>
+  <tabTrigger>w3css-modal-form-login</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

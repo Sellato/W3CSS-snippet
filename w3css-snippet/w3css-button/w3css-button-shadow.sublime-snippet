@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<button class="w3-btn w3-light-grey" type="button">Button</button>
+]]></content>
+  <tabTrigger>w3css-button-shadow</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
+

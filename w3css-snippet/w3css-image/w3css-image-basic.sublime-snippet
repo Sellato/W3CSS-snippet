@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<img class="w3-image" src="https://via.placeholder.com/150x150" width="150" height="150" alt="image">
+]]></content>
+  <tabTrigger>w3css-image-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

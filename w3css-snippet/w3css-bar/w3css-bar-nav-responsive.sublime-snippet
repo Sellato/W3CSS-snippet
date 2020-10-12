@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<!-- w3css-bar-nav-responsive -->
+<nav>
+  <!-- <h2 class="sr-only">Navigation</h2> -->
+  <div class="w3-bar w3-light-grey w3-display-container">
+    <a class="w3-bar-item w3-button" href="#">Home</a>
+    <div class="w3-hide-small">
+    <a class="w3-bar-item w3-button w3-mobile" href="#">Link 1</a>
+    <a class="w3-bar-item w3-button w3-mobile" href="#">Link 2</a>
+    <a class="w3-bar-item w3-button w3-mobile" href="#">Link 3</a>
+    </div>
+    <button class="w3-button w3-hide-large w3-hide-medium w3-display-topright" type="button">&#9776;</button>
+  </div>
+</nav>
+<!-- w3css-bar-nav-responsive end -->
+]]></content>
+  <tabTrigger>w3css-bar-nav-responsive</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

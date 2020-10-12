@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-bar w3-border w3-light-grey">
+  <a class="w3-bar-item w3-button w3-mobile" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-mobile" href="#">Link</a>
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-light-grey" type="button">Link &dArr;</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a class="w3-bar-item w3-button" href="#">Link</a>
+      <a class="w3-bar-item w3-button" href="#">Link</a>
+      <a class="w3-bar-item w3-button" href="#">Link</a>
+    </div>
+  </div>
+</div>
+]]></content>
+  <tabTrigger>w3css-bar-dropdown</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

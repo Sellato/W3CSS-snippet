@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-section">
+  <label for="field-name">Name</label>
+  <input class="w3-input w3-border" id="field-name" type="text">
+</div>
+]]></content>
+  <tabTrigger>w3css-input-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

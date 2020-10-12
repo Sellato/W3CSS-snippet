@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-card w3-light-grey">
+  <div class="w3-container">
+    <p>w3-card</p>
+  </div>
+</div>
+]]></content>
+  <tabTrigger>w3css-card-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

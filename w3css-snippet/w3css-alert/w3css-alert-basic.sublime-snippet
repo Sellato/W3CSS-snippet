@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<div class="w3-panel w3-light-grey w3-display-container">
+  <button class="w3-button w3-display-topright">&times;<!-- <span class="sr-only">Close</span> --></button>
+  <p>Click on the X to close this panel.</p>
+</div>
+]]></content>
+  <tabTrigger>w3css-alert-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

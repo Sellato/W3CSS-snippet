@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<span class="w3-badge">9</span>
+]]></content>
+  <tabTrigger>w3css-badge-basic</tabTrigger>
+  <scope>text.html</scope>
+</snippet>

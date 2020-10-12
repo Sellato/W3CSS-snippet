@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<button class="w3-button w3-light-grey" type="button">Button</button>
+]]></content>
+  <tabTrigger>w3css-button-default</tabTrigger>
+  <scope>text.html</scope>
+</snippet>
