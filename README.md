@@ -8,29 +8,28 @@
 
 ### Using:
 
-Start typing w3css- in HTML files and the autocomplete window opens.
+Start typing `w3css-` in HTML files and the autocomplete window opens.
 
-  w3css-alert      
-  w3css-badge           
-  w3css-bar               
-  w3css-button          
-  w3css-card         
-  w3css-dropdown         
-  w3css-form           
-  w3css-image         
-  w3css-input         
-  w3css-list            
-  w3css-modal
-  w3css-pagination
-  w3css-panel
-  w3css-progress
-  w3css-qute
-  w3css-select
-  w3css-sidebar
-  w3css-sidebar
-  w3css-slide                   
-  w3css-table
-  w3css-tag
+- w3css-alert      
+- w3css-badge           
+- w3css-bar               
+- w3css-button          
+- w3css-card         
+- w3css-dropdown         
+- w3css-form           
+- w3css-image         
+- w3css-input         
+- w3css-list            
+- w3css-modal
+- w3css-pagination
+- w3css-panel
+- w3css-progress
+- w3css-quote
+- w3css-select
+- w3css-sidebar
+- w3css-slide                   
+- w3css-table
+- w3css-tag
 
 
 ### Credits
