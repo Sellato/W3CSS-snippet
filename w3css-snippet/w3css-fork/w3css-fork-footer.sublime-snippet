@@ -1,10 +1,60 @@
 <snippet>
   <content><![CDATA[
-<div class="w3-panel w3-light-grey w3-display-container">
-  <button class="w3-button w3-display-topright">&times;<!-- <span class="sr-only">Close</span> --></button>
-  <p>Click on the X to close this panel.</p>
-</div>
+  <footer class="mt-5 bg-secondary">
+  <div class="container">
+    <nav class="nav container py-4">
+        <h2 class="d-none">{{ 'lbl.Footer'|trans|ucfirst }}</h2>
+        <span class="text-light px-3">&copy; 2013&mdash;{{ now|date('Y') }}</span><a class="pr-2" href="{{ SITE_URL }}">{{ siteTitle }}</a>
+        {% for footerLink in footerLinks %}
+        <a class="nav-link pt-0" href="{{ footerLink.url }}" title="{{ footerLink.title }}" {% if footerLink.rel %} rel="{{ footerLink.rel }}" {% endif %}>
+          {{ footerLink.navigation_title }}
+        </a>
+        {% endfor %}
+    </nav>
+  </div>
+  <script type='application/ld+json'> {
+      "@context":"https://schema.org",
+      "@graph":[ {
+            "@type":"Organization",
+            "@id":"{{ SITE_URL }}/#organization",
+            "name":"{{ SITE_TITLE }}",
+            "url":"{{ SITE_URL }}"
+      }
+      ,
+        {
+            "@type":"WebSite",
+            "@id":"{{ SITE_URL }}/#website",
+            "url":"{{ SITE_URL }}",
+            "name":"{{ SITE_TITLE }}",
+            "publisher": {
+                "@id": "{{ SITE_URL }}/#organization"
+            }
+            ,
+            "potentialAction": {
+                "@type":"SearchAction",
+                "target":"{{ SITE_URL }}/?form=search&q_widget={q_widget}",
+                "query-input": "name=q_widget"
+            }
+        }
+      ,
+      {
+            "@type": "WebPage", "@id": "{{ item.full_url }}/#webpage", "url": "{{ item.full_url }}", "inLanguage": "{{ LANGUAGE }}", "name": "{{ item.category_title }}", "isPartOf": {
+                "@id": "{{ SITE_URL }}/#website"
+            }
+          ,
+          "about": {
+              "@id": "{{ SITE_URL }}/#organization"
+          }
+          ,
+            "datePublished":"{{ item.publish_on|spoondate(dateFormatLong, timestamp, LANGUAGE) }}",
+            "dateModified":"{{ item.modified_on|spoondate(dateFormatLong, timestamp, LANGUAGE) }}",
+            "description":"{{ item.description }}"
+      }
+    ]
+  }
+  </script>
+</footer>
 ]]></content>
-  <tabTrigger>w3css-full-page</tabTrigger>
+  <tabTrigger>w3css-fork-footer</tabTrigger>
   <scope>text.html</scope>
 </snippet>
